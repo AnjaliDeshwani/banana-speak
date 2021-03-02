@@ -1,0 +1,16 @@
+:root{
+    --primary-color:#F2C94C;
+}
+nav{
+    text-align: center;
+    background-color: var(--primary-color);
+    
+}
+div{
+    display: block;
+    padding: 1rem;
+}
+
+body{
+    margin:0
+}
