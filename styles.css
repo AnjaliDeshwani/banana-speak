@@ -1,29 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
-
-:root{
-    --primary-color:#F2C94C;
+:root {
+    --primary-color: #F2C94C;
 }
-nav{
-    text-align: center;
+
+nav {
     background-color: var(--primary-color);
-    padding: 2rem;
-    font-size:x-large;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-body{
-    margin:0;
+#nav-image {
+    padding: 2rem;
+    height: 5rem;
+}
+
+#nav-heading {
+    color: white;
+}
+
+body {
+    margin: 0;
     font-family: 'Courgette', cursive;
     font-size: large;
 }
 
-.main{
-    margin: auto; 
+.main {
+    margin: auto;
     padding: 1rem;
     max-width: 600px;
 }
 
-textarea{
+textarea {
     display: block;
     width: 100%;
     margin-top: 2rem;
@@ -31,11 +41,11 @@ textarea{
     font-size: large;
 }
 
-button{
+button {
     background-color: var(--primary-color);
     margin: 1rem 0rem;
     padding: 1rem 1rem;
-    border:none;
+    border: none;
     font-size: large;
     border-top-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
@@ -43,30 +53,27 @@ button{
     font-weight: 800;
 }
 
-
-#div-output{
+#div-output {
     overflow: scroll;
     height: 15vh;
     width: 100%;
     border: 1px solid black;
-    margin-top:1rem;
+    margin-top: 1rem;
 }
 
-footer{
+footer {
     background-color: var(--primary-color);
     bottom: 0;
     position: fixed;
     width: 100%;
     padding: 1rem;
-    text-align:center;
+    text-align: center;
 }
 
-footer p{
-    margin:auto;
+footer p {
+    margin: auto;
     max-width: 600px;
     font-family: 'Nanum Myeongjo', serif;
 }
 
-#nav-image{
-
-}
+#nav-image {}
